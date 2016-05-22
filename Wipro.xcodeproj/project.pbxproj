@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C345A4C1CEC6A5B00FF2739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A4B1CEC6A5B00FF2739 /* main.m */; };
+		2C345A4F1CEC6A5B00FF2739 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A4E1CEC6A5B00FF2739 /* AppDelegate.m */; };
+		2C345A571CEC6A5B00FF2739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C345A561CEC6A5B00FF2739 /* Assets.xcassets */; };
+		2C345A5A1CEC6A5B00FF2739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C345A581CEC6A5B00FF2739 /* LaunchScreen.storyboard */; };
+		2C345A701CEC6A5B00FF2739 /* WiproUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A6F1CEC6A5B00FF2739 /* WiproUITests.m */; };
+		2C345A801CEC6D3100FF2739 /* DaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A7E1CEC6D3100FF2739 /* DaysViewController.m */; };
+		2C345A811CEC6D3100FF2739 /* DaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A7E1CEC6D3100FF2739 /* DaysViewController.m */; };
+		2C345A821CEC6D3100FF2739 /* DaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A7E1CEC6D3100FF2739 /* DaysViewController.m */; };
+		2C345A831CEC6D3100FF2739 /* DaysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C345A7F1CEC6D3100FF2739 /* DaysViewController.xib */; };
+		2C345A841CEC6D3100FF2739 /* DaysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C345A7F1CEC6D3100FF2739 /* DaysViewController.xib */; };
+		2C345A851CEC6D3100FF2739 /* DaysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C345A7F1CEC6D3100FF2739 /* DaysViewController.xib */; };
+		2C345A881CEC6F3500FF2739 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A871CEC6F3500FF2739 /* Comms.m */; };
+		2C345A891CEC6F3500FF2739 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A871CEC6F3500FF2739 /* Comms.m */; };
+		2C345A8A1CEC6F3500FF2739 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C345A871CEC6F3500FF2739 /* Comms.m */; };
+		2C3D4A401CF04E4400D1CCBD /* WeatherParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D4A3F1CF04E4400D1CCBD /* WeatherParserTests.m */; };
+		2C3D4A421CF053E600D1CCBD /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3D4A411CF053E500D1CCBD /* libOCMock.a */; };
+		2C3D4A4F1CF06B0D00D1CCBD /* CommsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D4A4E1CF06B0D00D1CCBD /* CommsTests.m */; };
+		2C3D4A511CF10BA200D1CCBD /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD11CECBC7D006F7755 /* WeatherViewController.m */; };
+		2C3D4A521CF10BC600D1CCBD /* WeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD81CECBFBA006F7755 /* WeatherCell.m */; };
+		2C3D4A561CF2281100D1CCBD /* DaysDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D4A551CF2281100D1CCBD /* DaysDataSource.m */; };
+		2C3D4A591CF2318D00D1CCBD /* WeatherDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D4A581CF2318D00D1CCBD /* WeatherDataSource.m */; };
+		2CFCBFC61CEC854F006F7755 /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFC51CEC854F006F7755 /* WeatherModel.m */; };
+		2CFCBFC71CEC854F006F7755 /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFC51CEC854F006F7755 /* WeatherModel.m */; };
+		2CFCBFCA1CEC8A6E006F7755 /* DayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFC91CEC8A6E006F7755 /* DayModel.m */; };
+		2CFCBFCB1CEC8A6E006F7755 /* DayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFC91CEC8A6E006F7755 /* DayModel.m */; };
+		2CFCBFCE1CEC8F3F006F7755 /* WeatherParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFCD1CEC8F3F006F7755 /* WeatherParser.m */; };
+		2CFCBFCF1CEC8F3F006F7755 /* WeatherParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFCD1CEC8F3F006F7755 /* WeatherParser.m */; };
+		2CFCBFD31CECBC7D006F7755 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD11CECBC7D006F7755 /* WeatherViewController.m */; };
+		2CFCBFD41CECBC7D006F7755 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD11CECBC7D006F7755 /* WeatherViewController.m */; };
+		2CFCBFD51CECBC7D006F7755 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD21CECBC7D006F7755 /* WeatherViewController.xib */; };
+		2CFCBFD61CECBC7D006F7755 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD21CECBC7D006F7755 /* WeatherViewController.xib */; };
+		2CFCBFD91CECBFBA006F7755 /* WeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD81CECBFBA006F7755 /* WeatherCell.m */; };
+		2CFCBFDA1CECBFBA006F7755 /* WeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCBFD81CECBFBA006F7755 /* WeatherCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C345A611CEC6A5B00FF2739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C345A3F1CEC6A5A00FF2739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C345A461CEC6A5A00FF2739;
+			remoteInfo = Wipro;
+		};
+		2C345A6C1CEC6A5B00FF2739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C345A3F1CEC6A5A00FF2739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C345A461CEC6A5A00FF2739;
+			remoteInfo = Wipro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C345A471CEC6A5A00FF2739 /* Wipro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wipro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C345A4B1CEC6A5B00FF2739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C345A4D1CEC6A5B00FF2739 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C345A4E1CEC6A5B00FF2739 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C345A561CEC6A5B00FF2739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C345A591CEC6A5B00FF2739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C345A5B1CEC6A5B00FF2739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C345A601CEC6A5B00FF2739 /* WiproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C345A661CEC6A5B00FF2739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C345A6B1CEC6A5B00FF2739 /* WiproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C345A6F1CEC6A5B00FF2739 /* WiproUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiproUITests.m; sourceTree = "<group>"; };
+		2C345A711CEC6A5B00FF2739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C345A7D1CEC6D3100FF2739 /* DaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysViewController.h; sourceTree = "<group>"; };
+		2C345A7E1CEC6D3100FF2739 /* DaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysViewController.m; sourceTree = "<group>"; };
+		2C345A7F1CEC6D3100FF2739 /* DaysViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DaysViewController.xib; sourceTree = "<group>"; };
+		2C345A861CEC6F3500FF2739 /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comms.h; sourceTree = "<group>"; };
+		2C345A871CEC6F3500FF2739 /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comms.m; sourceTree = "<group>"; };
+		2C3D4A3E1CF04E1100D1CCBD /* WeatherParserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherParserTests.h; sourceTree = "<group>"; };
+		2C3D4A3F1CF04E4400D1CCBD /* WeatherParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherParserTests.m; sourceTree = "<group>"; };
+		2C3D4A411CF053E500D1CCBD /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		2C3D4A431CF053FF00D1CCBD /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		2C3D4A441CF053FF00D1CCBD /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = OCMock/OCMArg.h; sourceTree = "<group>"; };
+		2C3D4A451CF053FF00D1CCBD /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = OCMock/OCMConstraint.h; sourceTree = "<group>"; };
+		2C3D4A461CF053FF00D1CCBD /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMFunctions.h; path = OCMock/OCMFunctions.h; sourceTree = "<group>"; };
+		2C3D4A471CF053FF00D1CCBD /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMLocation.h; path = OCMock/OCMLocation.h; sourceTree = "<group>"; };
+		2C3D4A481CF053FF00D1CCBD /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMMacroState.h; path = OCMock/OCMMacroState.h; sourceTree = "<group>"; };
+		2C3D4A491CF053FF00D1CCBD /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = OCMock/OCMock.h; sourceTree = "<group>"; };
+		2C3D4A4A1CF053FF00D1CCBD /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = OCMock/OCMockObject.h; sourceTree = "<group>"; };
+		2C3D4A4B1CF053FF00D1CCBD /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMRecorder.h; path = OCMock/OCMRecorder.h; sourceTree = "<group>"; };
+		2C3D4A4C1CF053FF00D1CCBD /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMStubRecorder.h; path = OCMock/OCMStubRecorder.h; sourceTree = "<group>"; };
+		2C3D4A4E1CF06B0D00D1CCBD /* CommsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommsTests.m; sourceTree = "<group>"; };
+		2C3D4A501CF06C5600D1CCBD /* CommsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommsTests.h; sourceTree = "<group>"; };
+		2C3D4A531CF1866200D1CCBD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		2C3D4A541CF2281100D1CCBD /* DaysDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysDataSource.h; sourceTree = "<group>"; };
+		2C3D4A551CF2281100D1CCBD /* DaysDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysDataSource.m; sourceTree = "<group>"; };
+		2C3D4A571CF2318D00D1CCBD /* WeatherDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDataSource.h; sourceTree = "<group>"; };
+		2C3D4A581CF2318D00D1CCBD /* WeatherDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDataSource.m; sourceTree = "<group>"; };
+		2CFCBFC41CEC854F006F7755 /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		2CFCBFC51CEC854F006F7755 /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		2CFCBFC81CEC8A6E006F7755 /* DayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayModel.h; sourceTree = "<group>"; };
+		2CFCBFC91CEC8A6E006F7755 /* DayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayModel.m; sourceTree = "<group>"; };
+		2CFCBFCC1CEC8F3F006F7755 /* WeatherParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherParser.h; sourceTree = "<group>"; };
+		2CFCBFCD1CEC8F3F006F7755 /* WeatherParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherParser.m; sourceTree = "<group>"; };
+		2CFCBFD01CECBC7D006F7755 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		2CFCBFD11CECBC7D006F7755 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		2CFCBFD21CECBC7D006F7755 /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		2CFCBFD71CECBFBA006F7755 /* WeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherCell.h; sourceTree = "<group>"; };
+		2CFCBFD81CECBFBA006F7755 /* WeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C345A441CEC6A5A00FF2739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C345A5D1CEC6A5B00FF2739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3D4A421CF053E600D1CCBD /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C345A681CEC6A5B00FF2739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C345A3E1CEC6A5A00FF2739 = {
+			isa = PBXGroup;
+			children = (
+				2C345A491CEC6A5B00FF2739 /* Wipro */,
+				2C3D4A4D1CF0540900D1CCBD /* OCMock */,
+				2C345A631CEC6A5B00FF2739 /* WiproTests */,
+				2C345A6E1CEC6A5B00FF2739 /* WiproUITests */,
+				2C345A481CEC6A5A00FF2739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C345A481CEC6A5A00FF2739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C345A471CEC6A5A00FF2739 /* Wipro.app */,
+				2C345A601CEC6A5B00FF2739 /* WiproTests.xctest */,
+				2C345A6B1CEC6A5B00FF2739 /* WiproUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C345A491CEC6A5B00FF2739 /* Wipro */ = {
+			isa = PBXGroup;
+			children = (
+				2C345A4D1CEC6A5B00FF2739 /* AppDelegate.h */,
+				2C345A4E1CEC6A5B00FF2739 /* AppDelegate.m */,
+				2C345A861CEC6F3500FF2739 /* Comms.h */,
+				2C345A871CEC6F3500FF2739 /* Comms.m */,
+				2CFCBFCC1CEC8F3F006F7755 /* WeatherParser.h */,
+				2CFCBFCD1CEC8F3F006F7755 /* WeatherParser.m */,
+				2CFCBFC41CEC854F006F7755 /* WeatherModel.h */,
+				2CFCBFC51CEC854F006F7755 /* WeatherModel.m */,
+				2CFCBFC81CEC8A6E006F7755 /* DayModel.h */,
+				2CFCBFC91CEC8A6E006F7755 /* DayModel.m */,
+				2C3D4A541CF2281100D1CCBD /* DaysDataSource.h */,
+				2C3D4A551CF2281100D1CCBD /* DaysDataSource.m */,
+				2C345A7D1CEC6D3100FF2739 /* DaysViewController.h */,
+				2C345A7E1CEC6D3100FF2739 /* DaysViewController.m */,
+				2C345A7F1CEC6D3100FF2739 /* DaysViewController.xib */,
+				2C3D4A571CF2318D00D1CCBD /* WeatherDataSource.h */,
+				2C3D4A581CF2318D00D1CCBD /* WeatherDataSource.m */,
+				2CFCBFD01CECBC7D006F7755 /* WeatherViewController.h */,
+				2CFCBFD11CECBC7D006F7755 /* WeatherViewController.m */,
+				2CFCBFD21CECBC7D006F7755 /* WeatherViewController.xib */,
+				2CFCBFD71CECBFBA006F7755 /* WeatherCell.h */,
+				2CFCBFD81CECBFBA006F7755 /* WeatherCell.m */,
+				2C345A561CEC6A5B00FF2739 /* Assets.xcassets */,
+				2C345A581CEC6A5B00FF2739 /* LaunchScreen.storyboard */,
+				2C345A5B1CEC6A5B00FF2739 /* Info.plist */,
+				2C345A4A1CEC6A5B00FF2739 /* Supporting Files */,
+				2C3D4A531CF1866200D1CCBD /* Constants.h */,
+			);
+			path = Wipro;
+			sourceTree = "<group>";
+		};
+		2C345A4A1CEC6A5B00FF2739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C345A4B1CEC6A5B00FF2739 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C345A631CEC6A5B00FF2739 /* WiproTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C345A661CEC6A5B00FF2739 /* Info.plist */,
+				2C3D4A3E1CF04E1100D1CCBD /* WeatherParserTests.h */,
+				2C3D4A3F1CF04E4400D1CCBD /* WeatherParserTests.m */,
+				2C3D4A501CF06C5600D1CCBD /* CommsTests.h */,
+				2C3D4A4E1CF06B0D00D1CCBD /* CommsTests.m */,
+			);
+			path = WiproTests;
+			sourceTree = "<group>";
+		};
+		2C345A6E1CEC6A5B00FF2739 /* WiproUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C345A6F1CEC6A5B00FF2739 /* WiproUITests.m */,
+				2C345A711CEC6A5B00FF2739 /* Info.plist */,
+			);
+			path = WiproUITests;
+			sourceTree = "<group>";
+		};
+		2C3D4A4D1CF0540900D1CCBD /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D4A431CF053FF00D1CCBD /* NSNotificationCenter+OCMAdditions.h */,
+				2C3D4A441CF053FF00D1CCBD /* OCMArg.h */,
+				2C3D4A451CF053FF00D1CCBD /* OCMConstraint.h */,
+				2C3D4A461CF053FF00D1CCBD /* OCMFunctions.h */,
+				2C3D4A471CF053FF00D1CCBD /* OCMLocation.h */,
+				2C3D4A481CF053FF00D1CCBD /* OCMMacroState.h */,
+				2C3D4A491CF053FF00D1CCBD /* OCMock.h */,
+				2C3D4A4A1CF053FF00D1CCBD /* OCMockObject.h */,
+				2C3D4A4B1CF053FF00D1CCBD /* OCMRecorder.h */,
+				2C3D4A4C1CF053FF00D1CCBD /* OCMStubRecorder.h */,
+				2C3D4A411CF053E500D1CCBD /* libOCMock.a */,
+			);
+			name = OCMock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C345A461CEC6A5A00FF2739 /* Wipro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C345A741CEC6A5B00FF2739 /* Build configuration list for PBXNativeTarget "Wipro" */;
+			buildPhases = (
+				2C345A431CEC6A5A00FF2739 /* Sources */,
+				2C345A441CEC6A5A00FF2739 /* Frameworks */,
+				2C345A451CEC6A5A00FF2739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wipro;
+			productName = Wipro;
+			productReference = 2C345A471CEC6A5A00FF2739 /* Wipro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C345A5F1CEC6A5B00FF2739 /* WiproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C345A771CEC6A5B00FF2739 /* Build configuration list for PBXNativeTarget "WiproTests" */;
+			buildPhases = (
+				2C345A5C1CEC6A5B00FF2739 /* Sources */,
+				2C345A5D1CEC6A5B00FF2739 /* Frameworks */,
+				2C345A5E1CEC6A5B00FF2739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C345A621CEC6A5B00FF2739 /* PBXTargetDependency */,
+			);
+			name = WiproTests;
+			productName = WiproTests;
+			productReference = 2C345A601CEC6A5B00FF2739 /* WiproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C345A6A1CEC6A5B00FF2739 /* WiproUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C345A7A1CEC6A5B00FF2739 /* Build configuration list for PBXNativeTarget "WiproUITests" */;
+			buildPhases = (
+				2C345A671CEC6A5B00FF2739 /* Sources */,
+				2C345A681CEC6A5B00FF2739 /* Frameworks */,
+				2C345A691CEC6A5B00FF2739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C345A6D1CEC6A5B00FF2739 /* PBXTargetDependency */,
+			);
+			name = WiproUITests;
+			productName = WiproUITests;
+			productReference = 2C345A6B1CEC6A5B00FF2739 /* WiproUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C345A3F1CEC6A5A00FF2739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Bellerby";
+				TargetAttributes = {
+					2C345A461CEC6A5A00FF2739 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2C345A5F1CEC6A5B00FF2739 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C345A461CEC6A5A00FF2739;
+					};
+					2C345A6A1CEC6A5B00FF2739 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C345A461CEC6A5A00FF2739;
+					};
+				};
+			};
+			buildConfigurationList = 2C345A421CEC6A5A00FF2739 /* Build configuration list for PBXProject "Wipro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C345A3E1CEC6A5A00FF2739;
+			productRefGroup = 2C345A481CEC6A5A00FF2739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C345A461CEC6A5A00FF2739 /* Wipro */,
+				2C345A5F1CEC6A5B00FF2739 /* WiproTests */,
+				2C345A6A1CEC6A5B00FF2739 /* WiproUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C345A451CEC6A5A00FF2739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C345A5A1CEC6A5B00FF2739 /* LaunchScreen.storyboard in Resources */,
+				2CFCBFD51CECBC7D006F7755 /* WeatherViewController.xib in Resources */,
+				2C345A831CEC6D3100FF2739 /* DaysViewController.xib in Resources */,
+				2C345A571CEC6A5B00FF2739 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C345A5E1CEC6A5B00FF2739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C345A841CEC6D3100FF2739 /* DaysViewController.xib in Resources */,
+				2CFCBFD61CECBC7D006F7755 /* WeatherViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C345A691CEC6A5B00FF2739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C345A851CEC6D3100FF2739 /* DaysViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C345A431CEC6A5A00FF2739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFCBFC61CEC854F006F7755 /* WeatherModel.m in Sources */,
+				2C3D4A561CF2281100D1CCBD /* DaysDataSource.m in Sources */,
+				2CFCBFD91CECBFBA006F7755 /* WeatherCell.m in Sources */,
+				2C345A801CEC6D3100FF2739 /* DaysViewController.m in Sources */,
+				2C3D4A591CF2318D00D1CCBD /* WeatherDataSource.m in Sources */,
+				2CFCBFCA1CEC8A6E006F7755 /* DayModel.m in Sources */,
+				2CFCBFD31CECBC7D006F7755 /* WeatherViewController.m in Sources */,
+				2C345A4F1CEC6A5B00FF2739 /* AppDelegate.m in Sources */,
+				2C345A881CEC6F3500FF2739 /* Comms.m in Sources */,
+				2C345A4C1CEC6A5B00FF2739 /* main.m in Sources */,
+				2CFCBFCE1CEC8F3F006F7755 /* WeatherParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C345A5C1CEC6A5B00FF2739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFCBFDA1CECBFBA006F7755 /* WeatherCell.m in Sources */,
+				2C3D4A4F1CF06B0D00D1CCBD /* CommsTests.m in Sources */,
+				2C345A891CEC6F3500FF2739 /* Comms.m in Sources */,
+				2CFCBFCF1CEC8F3F006F7755 /* WeatherParser.m in Sources */,
+				2CFCBFD41CECBC7D006F7755 /* WeatherViewController.m in Sources */,
+				2CFCBFCB1CEC8A6E006F7755 /* DayModel.m in Sources */,
+				2C3D4A401CF04E4400D1CCBD /* WeatherParserTests.m in Sources */,
+				2CFCBFC71CEC854F006F7755 /* WeatherModel.m in Sources */,
+				2C345A811CEC6D3100FF2739 /* DaysViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C345A671CEC6A5B00FF2739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C345A8A1CEC6F3500FF2739 /* Comms.m in Sources */,
+				2C3D4A511CF10BA200D1CCBD /* WeatherViewController.m in Sources */,
+				2C3D4A521CF10BC600D1CCBD /* WeatherCell.m in Sources */,
+				2C345A701CEC6A5B00FF2739 /* WiproUITests.m in Sources */,
+				2C345A821CEC6D3100FF2739 /* DaysViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C345A621CEC6A5B00FF2739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C345A461CEC6A5A00FF2739 /* Wipro */;
+			targetProxy = 2C345A611CEC6A5B00FF2739 /* PBXContainerItemProxy */;
+		};
+		2C345A6D1CEC6A5B00FF2739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C345A461CEC6A5A00FF2739 /* Wipro */;
+			targetProxy = 2C345A6C1CEC6A5B00FF2739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C345A581CEC6A5B00FF2739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C345A591CEC6A5B00FF2739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C345A721CEC6A5B00FF2739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C345A731CEC6A5B00FF2739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C345A751CEC6A5B00FF2739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wipro",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR",
+				);
+				INFOPLIST_FILE = Wipro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellerby.Wipro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		2C345A761CEC6A5B00FF2739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wipro",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR",
+				);
+				INFOPLIST_FILE = Wipro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellerby.Wipro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		2C345A781CEC6A5B00FF2739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR",
+				);
+				INFOPLIST_FILE = WiproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellerby.WiproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wipro.app/Wipro";
+			};
+			name = Debug;
+		};
+		2C345A791CEC6A5B00FF2739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR",
+				);
+				INFOPLIST_FILE = WiproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellerby.WiproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wipro.app/Wipro";
+			};
+			name = Release;
+		};
+		2C345A7B1CEC6A5B00FF2739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WiproUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellerby.WiproUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wipro;
+			};
+			name = Debug;
+		};
+		2C345A7C1CEC6A5B00FF2739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WiproUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellerby.WiproUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wipro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C345A421CEC6A5A00FF2739 /* Build configuration list for PBXProject "Wipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C345A721CEC6A5B00FF2739 /* Debug */,
+				2C345A731CEC6A5B00FF2739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C345A741CEC6A5B00FF2739 /* Build configuration list for PBXNativeTarget "Wipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C345A751CEC6A5B00FF2739 /* Debug */,
+				2C345A761CEC6A5B00FF2739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C345A771CEC6A5B00FF2739 /* Build configuration list for PBXNativeTarget "WiproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C345A781CEC6A5B00FF2739 /* Debug */,
+				2C345A791CEC6A5B00FF2739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C345A7A1CEC6A5B00FF2739 /* Build configuration list for PBXNativeTarget "WiproUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C345A7B1CEC6A5B00FF2739 /* Debug */,
+				2C345A7C1CEC6A5B00FF2739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C345A3F1CEC6A5A00FF2739 /* Project object */;
+}
